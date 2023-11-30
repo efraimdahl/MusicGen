@@ -7,6 +7,8 @@
       - Options might be playing with how timing, tempo or note density are generated
       - Maybe see if we can have this drift of a generation 
 ## Fine tuning baroque counter point model, maybe RL (midi). Symbolic music generation with rule based systems (i.e. counterpoints)
+1. Option A: Maybe using a GAN to train the counter point
+   - 
 ## Wave, testing GAN vs diffusion (personal implementation)
 1. Option A:
    - Testing GAN vs diffusion on highly compressed latent space
