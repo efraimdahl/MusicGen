@@ -1,8 +1,18 @@
-1. Fine tune existing models on new genres (wave)
-   - https://arxiv.org/abs/2208.08706
-      - maybe add more tunable parameters
-3. Fine tuning baroque counter point model, maybe RL (midi). Symbolic music generation with rule based systems (i.e. counterpoints)
-4. Wave, testing GAN vs diffusion (personal implementation)
+# Ideas
+## Fine tune existing model
+1. Option A: Train model here https://arxiv.org/abs/2208.08706 on new genre 
+   - Propose to use this model because it is runnable and trainable on single gpu in hours
+   - maybe add more tunable parameters as well 
+## Fine tuning baroque counter point model, maybe RL (midi). Symbolic music generation with rule based systems (i.e. counterpoints)
+## Wave, testing GAN vs diffusion (personal implementation)
+1. Option A:
+   - Testing GAN vs diffusion on highly compressed latent space
+      - Using the autoencoder trained here: https://arxiv.org/abs/2208.08706
+         - Use the autoencoder suggested here because it highly compresses the waveforms making it feasible to work on lower compute devices (ours)
+      - Compare there GAN generation vs a diffusion implementation that works on the compressed latent space and is then decoded
+      - Will have to create our of diffusion model
+         - Maybe can find a pre trained on and re-train the input output layers (or something)
+
 
 
 <h2>References and sources</h2>
