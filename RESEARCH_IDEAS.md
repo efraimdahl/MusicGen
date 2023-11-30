@@ -2,7 +2,10 @@
 ## Fine tune existing model
 1. Option A: Train model here https://arxiv.org/abs/2208.08706 on new genre 
    - Propose to use this model because it is runnable and trainable on single gpu in hours
+      - Suggest that need few hours of audio on new genre and we are good
    - maybe add more tunable parameters as well 
+      - Options might be playing with how timing, tempo or note density are generated
+      - Maybe see if we can have this drift of a generation 
 ## Fine tuning baroque counter point model, maybe RL (midi). Symbolic music generation with rule based systems (i.e. counterpoints)
 ## Wave, testing GAN vs diffusion (personal implementation)
 1. Option A:
@@ -12,7 +15,6 @@
       - Compare there GAN generation vs a diffusion implementation that works on the compressed latent space and is then decoded
       - Will have to create our of diffusion model
          - Maybe can find a pre trained on and re-train the input output layers (or something)
-
 
 
 <h2>References and sources</h2>
